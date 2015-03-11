@@ -2,7 +2,7 @@
 function AirPrint() {
 }
 
-Barcode.prototype.printWebView = function (successCallback, errorCallback) {
+AirPrint.prototype.printWebView = function (successCallback, errorCallback) {
   cordova.exec(successCallback, errorCallback, "AirPrint", "printWebView");
 };
 
